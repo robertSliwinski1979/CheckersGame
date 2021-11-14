@@ -24,8 +24,11 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.kodilla.warcaby'
-    //mainClass = 'com.kodilla.warcaby.HelloApplication'
-    mainClass = 'com.kodilla.warcaby.CheckersApp'
+    //mainClass = 'com.kodilla.warcaby.Application'
+    mainClass = 'com.kodilla.warcaby.Board'
+    //mainModule = 'com.kodilla.testowyPakiet'
+    //mainClass = 'com.kodilla.testowyPakiet.board'
+
 }
 
 javafx {
